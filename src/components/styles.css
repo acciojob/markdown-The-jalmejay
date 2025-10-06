@@ -5,3 +5,18 @@
 .title{
   text-align:center;
 }
+
+.main{
+  max-width:100%;
+  display:flex;
+}
+.textarea{
+  width:50%;
+  heigth:100%;
+  background-color:white;
+}
+.preview{
+  width:50%;
+  heigth:100%;
+  background-color:#f0f8ff;
+}
