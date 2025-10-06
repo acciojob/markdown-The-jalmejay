@@ -19,7 +19,7 @@ setPreview(text);
     <div className="main">
       <textarea className="textarea" value={text} onChange={(e) => setText(e.target.value)} />
       <div className="preview">
-        {loading ? <div className="loading">Loading preview...</div>:<ReactMarkdone>{preview}</ReactMarkdone>}
+        {loading ? <div className="loading">Loading preview...</div>:<p>{preview}</p>}
       </div>
     </div>
   )
