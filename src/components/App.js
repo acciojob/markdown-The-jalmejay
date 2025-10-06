@@ -1,9 +1,11 @@
 import React from "react";
+import MarkdownEditor form "./MarkdownEditor";
+import "./styles.css";
  const App=()=>{
    return(
      <div className="app">
         <h1 className="title">Markdown Editor</h1>
-        // <MarkdownEditor />
+        <MarkdownEditor />
      </div>
    )
  };
