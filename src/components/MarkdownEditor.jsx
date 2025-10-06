@@ -10,6 +10,7 @@ const MarkdownEditor=()=>{
 const t = setTimeout(() => setLoading(false), 300);
 return () => clearTimeout(t);
 }, []);
+  
   useEffect(() => {
 setPreview(text);
 }, [text]);
