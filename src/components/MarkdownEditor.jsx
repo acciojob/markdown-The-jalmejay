@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState,useEffect}from "react";
 import ReactMarkdown from 'react-markdown';
 import "./styles.css"
 
@@ -19,7 +19,7 @@ setPreview(text);
     <div className="main">
       <textarea className="textarea" value={text} onChange={(e) => setText(e.target.value)} />
       <div className="preview">
-        {loading ? <div className="loading">Loading preview...</div>:<ReactMarkDone>{preview}</ReactMarkDone>}
+        {loading ? <div className="loading">Loading preview...</div>:<ReactMarkdone>{preview}</ReactMarkdone>}
       </div>
     </div>
   )
