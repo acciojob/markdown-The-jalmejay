@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import "./styles.css";
 
 const MarkdownEditor = () => {
-  const [text, setText] = useState("# Hello World");
+  const [text, setText] = useState("");
   const [preview, setPreview] = useState(text);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
